@@ -203,6 +203,7 @@ export default function App() {
             src="https://images.unsplash.com/photo-1519074069444-1ba4fff66d16?q=80&w=2000&auto=format&fit=crop" 
             alt="Dark Forest Background" 
             className="w-full h-full object-cover opacity-20"
+            referrerPolicy="no-referrer"
           />
         </div>
 
@@ -214,9 +215,10 @@ export default function App() {
         >
           <div className="w-32 h-32 md:w-48 md:h-48 mb-8 rounded-full border border-zinc-700/50 p-2 flex items-center justify-center bg-zinc-900/50 backdrop-blur-sm shadow-[0_0_30px_rgba(0,0,0,0.5)]">
              <img 
-               src="https://media.discordapp.net/attachments/1352178147142930486/1484550131029119138/d4d99844ca29bc4b.png?ex=69bea28c&is=69bd510c&hm=b4750937e3725e230e0d75cb7f197e2b2ee878ce0931c6d69e1df39ad3155a5e&=&format=webp&quality=lossless&width=940&height=940" 
+               src="./emblem.png" 
                alt="Morana Emblem" 
                className="w-full h-full object-cover rounded-full opacity-90"
+               referrerPolicy="no-referrer"
              />
           </div>
 
@@ -488,6 +490,7 @@ export default function App() {
                   src={char.image} 
                   alt={char.name} 
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 filter grayscale-[20%] group-hover:grayscale-0"
+                  referrerPolicy="no-referrer"
                 />
               </div>
 
@@ -525,9 +528,10 @@ export default function App() {
       <footer className="py-12 border-t border-zinc-900 text-center relative z-10 bg-zinc-950">
         <div className="w-12 h-12 mx-auto mb-6 opacity-60">
           <img 
-            src="https://media.discordapp.net/attachments/1352178147142930486/1484550131029119138/d4d99844ca29bc4b.png?ex=69bea28c&is=69bd510c&hm=b4750937e3725e230e0d75cb7f197e2b2ee878ce0931c6d69e1df39ad3155a5e&=&format=webp&quality=lossless&width=940&height=940" 
+            src="./emblem.png" 
             alt="Morana Emblem" 
             className="w-full h-full object-cover rounded-full"
+            referrerPolicy="no-referrer"
           />
         </div>
         <p className="text-zinc-600 text-sm tracking-widest uppercase">
