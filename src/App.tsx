@@ -52,7 +52,7 @@ const CHARACTERS = [
     quote: "「我愛你，所以我不會放你走；我恨你，所以我會讓你記住代價。」",
     desc: "阿爾迪恩王國的年輕國王。曾是教廷最完美的「聖潔標本」與祭品，在經歷了極致的屈辱與背叛後，他親手割開了大主教的喉嚨，將神聖的祭壇化為自己的王座。他優雅、溫柔，卻將暴力與殘忍流程化，用最溫柔的語氣施加最殘酷的刑罰。",
     tags: ["ENTJ", "病態優雅", "支配者", "翠綠金瞳"],
-    image: "https://media.discordapp.net/attachments/1352178147142930486/1484550130555162644/812d2017c3bba466.png?ex=69c3e88c&is=69c2970c&hm=03fa3afd4a6cacaeee4d3191df81d74c75e41ce9e00f157c946ccfae47f27af1&=&format=webp&quality=lossless&width=705&height=940", 
+    image: "./adrian.png", 
     accent: "text-amber-500",
     bgAccent: "bg-amber-500/10",
     borderAccent: "border-amber-500/30"
@@ -65,7 +65,7 @@ const CHARACTERS = [
     quote: "「我不是不想回去⋯⋯我是不知道我有沒有資格回去。」",
     desc: "魔女的徒弟，聖女未被承認的私生子。童年時作為祭品被奪去雙目，在黑暗與恐懼中被魔女救贖。他擁有極高的魔力天賦，卻極度缺乏安全感與自我價值。在「聖女」的血緣勒索與「魔女」的溫柔邊界之間，他是一隻渴望被愛卻又害怕被拋棄的脆弱幼犬。",
     tags: ["INFP", "銀白短髮", "粉紫雙瞳", "依附型親密"],
-    image: "https://media.discordapp.net/attachments/1352178147142930486/1484550129532014652/3aede6be66d5ef3c.png?ex=69c3e88c&is=69c2970c&hm=4ea123039b586bfcc404d9a65992996ec9c74aa8b8c3dcb0a548eafe22ed75ca&=&format=webp&quality=lossless&width=705&height=940", 
+    image: "./eli.png", 
     accent: "text-purple-400",
     bgAccent: "bg-purple-500/10",
     borderAccent: "border-purple-500/30"
@@ -78,7 +78,7 @@ const CHARACTERS = [
     quote: "「月亮在上，我的誓不撒手；你要走，先付代價。」",
     desc: "東方誓骨荒「月牙狼庭」的首領。在殘酷的荒土中廝殺長大，曾被偽裝的聖女重傷，後被魔女所救。他極度厭惡虛偽與謊言，崇尚力量與絕對的誓約。他是一頭未經馴化的野獸，卻也是最重承諾的守護者。只要債務未清，他便是最鋒利的刀。",
     tags: ["ESTP", "黑紅長髮", "金琥珀瞳", "野性標記"],
-    image: "https://media.discordapp.net/attachments/1352178147142930486/1484550131683426354/be9338b4aa0c7886.png?ex=69c3e88d&is=69c2970d&hm=b30ee51a2b8c17602a8d2c03cd247ca9514bd146a52ceb1e6f12ff3e3174b606&=&format=webp&quality=lossless&width=705&height=940", 
+    image: "./langa.png", 
     accent: "text-red-500",
     bgAccent: "bg-red-500/10",
     borderAccent: "border-red-500/30"
@@ -215,7 +215,7 @@ export default function App() {
         >
           <div className="w-32 h-32 md:w-48 md:h-48 mb-8 rounded-full border border-zinc-700/50 p-2 flex items-center justify-center bg-zinc-900/50 backdrop-blur-sm shadow-[0_0_30px_rgba(0,0,0,0.5)]">
              <img 
-               src="https://media.discordapp.net/attachments/1352178147142930486/1484550131029119138/d4d99844ca29bc4b.png?ex=69c3e88c&is=69c2970c&hm=ce04baca162d7feaeb55803677f62c113cfa6a2cd2cce01e037b677e3b024a03&=&format=webp&quality=lossless&width=940&height=940" 
+               src="./emblem.png" 
                alt="Morana Emblem" 
                className="w-full h-full object-cover rounded-full opacity-90"
                referrerPolicy="no-referrer"
@@ -528,7 +528,7 @@ export default function App() {
       <footer className="py-12 border-t border-zinc-900 text-center relative z-10 bg-zinc-950">
         <div className="w-12 h-12 mx-auto mb-6 opacity-60">
           <img 
-            src="https://media.discordapp.net/attachments/1352178147142930486/1484550131029119138/d4d99844ca29bc4b.png?ex=69c3e88c&is=69c2970c&hm=ce04baca162d7feaeb55803677f62c113cfa6a2cd2cce01e037b677e3b024a03&=&format=webp&quality=lossless&width=940&height=940" 
+            src="./emblem.png" 
             alt="Morana Emblem" 
             className="w-full h-full object-cover rounded-full"
             referrerPolicy="no-referrer"
